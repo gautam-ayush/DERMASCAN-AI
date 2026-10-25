@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Keep the example env
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ML model files (too large for GitHub)
+*.keras
+*.h5
+*.pb
+*.tflite
+*.onnx
+*.pt
+*.pth
+SKIN_DISEASE_DETECTION/model/best_model.keras
+SKIN_DISEASE_DETECTION/model/skin_disease_model.keras
+
+# Dataset images (too large for GitHub)
+SKIN_DISEASE_DETECTION/dataset/
+
+# Lock files (optional - uncomment if you want to track them)
+# package-lock.json
+# bun.lock
+
+# Misc
+metadata.json

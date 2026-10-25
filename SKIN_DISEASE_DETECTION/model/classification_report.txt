@@ -1,0 +1,14 @@
+Test Accuracy: 65.76%
+
+                            precision    recall  f1-score   support
+
+    Atopic Dermatitis (AD)     0.3000    0.3000    0.3000        10
+   Contact Dermatitis (CD)     0.7755    0.5278    0.6281        72
+               Eczema (EC)     0.7705    0.6714    0.7176        70
+              Scabies (SC)     0.7288    0.8269    0.7748        52
+Seborrheic Dermatitis (SD)     0.3462    0.7500    0.4737        12
+       Tinea Corporis (TC)     0.5577    0.7073    0.6237        41
+
+                  accuracy                         0.6576       257
+                 macro avg     0.5798    0.6306    0.5863       257
+              weighted avg     0.6914    0.6576    0.6615       257
